@@ -1,0 +1,29 @@
+<div class="header">
+  <div class="logo">
+    <h1>{{title}}</h1>
+  </div>
+ <nav class="link">
+    <a [routerLink]="['/home']">Accueil</a>
+    <a [routerLink]="['/thematique']">Thématique</a>
+    <a [routerLink]="['/ressource']">Ressource</a>
+    <a [routerLink]="['/actualite']">Actualités</a>
+    <a [routerLink]="['/commencer']">Commencer</a>
+</nav>
+</div>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+<div class="footer">
+  <div class="contact">
+    <a>Adresse</a>
+    <a>Téléphone</a>
+    <a>Mail</a>
+  </div>
+  &copy;Faneva_ANDRIANAINA
+  <div class="réseau">
+    <a>Facebook</a>
+    <a>Linkedin</a>
+    <a>GitHub</a>
+    <a></a>
+  </div>
+</div>
