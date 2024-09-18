@@ -1,39 +1,97 @@
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link" [routerLink]="['/home']" routerLinkActive="active">Accueil</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" [routerLink]="['/thematique']" routerLinkActive="active">Thématique</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" [routerLink]="['/ressource']" routerLinkActive="active">Ressource</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" [routerLink]="['/actualite']" routerLinkActive="active">Actualités</a>
-  </li>
-  <form class="d-flex" role="search">
-    <button class="btn btn-outline-success" type="submit">Se connecter</button>
-    <button class="btn btn-outline-success" type="submit">S'inscrire</button>
-  </form>
-</ul>
-
-
 <div class="header">
-  <hr>
-<div class="conainer">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand logo">
+    {{title}}  
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/home']" routerLinkActive="active">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"[routerLink]="['/thematique']" routerLinkActive="active">Thématique</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/ressource']" routerLinkActive="active">Ressource</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/actualite']" routerLinkActive="active">Actualités</a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-flex">
+      <button class="btn btn-outline-primary me-2" type="button">Connexion</button>
+      <button class="btn btn-primary" type="button">S'inscrire</button>
+    </div>
+  </div>
+</nav>
+<hr>
+</div>
+
+<div class="container-fluid">
   <router-outlet></router-outlet>
 </div>
-<div class="footer">
-  <div class="contact">
-    <a>Adresse</a>
-    <a>Téléphone</a>
-    <a>Mail</a>
+
+<footer class="bg-light text-center text-lg-start mt-5">
+  <hr style="border:2px black solid">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Navigation</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a [routerLink]="['/home']" class="text-dark">Accueil</a>
+          </li>
+          <li>
+            <a [routerLink]="['/thematique']" class="text-dark">Thématique</a>
+          </li>
+          <li>
+            <a [routerLink]="['/ressource']" class="text-dark">Ressource</a>
+          </li>
+          <li>
+            <a [routerLink]="['/actualite']" class="text-dark">Actualités</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Contact</h5>
+        <ul class="list-unstyled">
+          <li>
+            <p class="text-dark"><i class="bi bi-geo-alt"></i>: Lot Va XXXXXXXX</p>
+          </li>
+          <li>
+            <p class="text-dark"><i class="bi bi-telephone"></i>: +261 XX XXX XX</p>
+          </li>
+          <li>
+            <p class="text-dark"><i class="bi bi-envelope-open"></i>: xxxxx&#4;gmail.com</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Suivez-nous</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" class="text-dark"><i class="bi bi-facebook">lorem ipsum</i></a>
+          </li>
+          <li>
+            <a href="#" class="text-dark"><i class="bi bi-twitter">lorem ipsum</i></a>
+          </li>
+          <li>
+            <a href="#" class="text-dark"><i class="bi bi-instagram">lorem ipsum</i></a>
+          </li>
+          <li>
+            <a href="#" class="text-dark"><i class="bi bi-linkedin">lorem ipsum</i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
-  &copy;Faneva_ANDRIANAINA
-  <div class="réseau">
-    <a>Facebook</a>
-    <a>Linkedin</a>
-    <a>GitHub</a>
-    <a></a>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    &copy; 2024 Copyright:
+    <a class="text-dark" href="#">GreenGuard4Peace</a>
   </div>
-</div>
+</footer>
