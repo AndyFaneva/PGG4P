@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { PaixComponent } from './thematique/paix/paix.component';
 import { GestionRisqueComponent } from './thematique/gestion-risque/gestion-risque.component';
 import { ChangeClimateComponent } from './thematique/change-climate/change-climate.component';
+import { SingingComponent } from './singing/singing.component';
+import { LoginComponent } from './login/login.component';
 
 export const routes: Routes = [
     {path :'thematique', component:ThematiqueComponent},
@@ -17,5 +19,7 @@ export const routes: Routes = [
     {path :'ressource', component:RessourceComponent},
     {path:'paix', component:PaixComponent},
     {path:'gestion-risque',component:GestionRisqueComponent},
-    {path:'change-climate',component:ChangeClimateComponent}
+    {path:'change-climate',component:ChangeClimateComponent},
+    {path:'login',component:LoginComponent},
+    {path:'singing',component:SingingComponent}
 ];

@@ -26,16 +26,12 @@
     padding:2px 5px;
     text-decoration: none;
 }
-.link{
-    color:rgb(255, 255, 255);
-    font-size: 13px;
-    text-align: center;
+.nav-link{
     border-radius: 40px;
-    padding:2px 5px;
-    text-decoration: none;
 }
-.link:hover{
+.nav-link:hover{
     background-color: rgb(23, 1, 226);
+    border-radius: 40px;
     color:white;
     font-size: 15px;
 }
