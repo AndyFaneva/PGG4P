@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { RouterLink } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ThematiqueComponent } from './thematique/thematique.component';
+import { RouterLinkActive} from '@angular/router';
 
 @Component({
 
@@ -11,7 +12,8 @@ import { ThematiqueComponent } from './thematique/thematique.component';
   imports: [RouterOutlet,
     HomeComponent,
     RouterLink,
-    ThematiqueComponent
+    ThematiqueComponent,
+    RouterLinkActive
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

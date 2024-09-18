@@ -1,16 +1,26 @@
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/home']" routerLinkActive="active">Accueil</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/thematique']" routerLinkActive="active">Thématique</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/ressource']" routerLinkActive="active">Ressource</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/actualite']" routerLinkActive="active">Actualités</a>
+  </li>
+  <form class="d-flex" role="search">
+    <button class="btn btn-outline-success" type="submit">Se connecter</button>
+    <button class="btn btn-outline-success" type="submit">S'inscrire</button>
+  </form>
+</ul>
+
+
 <div class="header">
-  <div class="logo">
-    <h1>{{title}}</h1>
-  </div>
- <nav class="link">
-    <a [routerLink]="['/home']">Accueil</a>
-    <a [routerLink]="['/thematique']">Thématique</a>
-    <a [routerLink]="['/ressource']">Ressource</a>
-    <a [routerLink]="['/actualite']">Actualités</a>
-    <a [routerLink]="['/commencer']">Commencer</a>
-</nav>
-</div>
-<div class="container">
+  <hr>
+<div class="conainer">
   <router-outlet></router-outlet>
 </div>
 <div class="footer">
