@@ -14,24 +14,60 @@ ul {
 span {
     text-decoration: underline;
 }
-.section1{
-    background-color: rgb(228, 238, 238);
-}
-.section2{
-    background-color: rgb(40, 104, 241);
-}
-.section3{
-    background-color: rgb(162, 0, 255);
-}
-.section4{
-    background-color: rgb(255, 238, 0);
-}
-.section5{
-    background-color: rgb(115, 255, 0);
-}
-.section6{
-    background-color: rgb(255, 0, 0);
-}
-.section7{
-    background-color: rgb(255, 60, 0);
-}
+
+.oblique-section {
+    background-color: #007bff; /* Couleur de fond */
+    color: white;              /* Couleur du texte */
+    padding: 50px 0;           /* Espace intérieur */
+    clip-path: polygon(0 0%, 100% 15%, 100% 80%, 0% 100%);
+    margin-bottom:-9%;padding-bottom:10% /* Créer la forme oblique */
+  }
+  .oblique-section1 {
+    background-color: #007bff; /* Couleur de fond */
+    color: white;              /* Couleur du texte */
+    padding: 50px 0;           /* Espace intérieur */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    margin-bottom:-7%;padding-bottom: 10%; /* Créer la forme oblique */
+  }
+  .oblique-section2 {
+    background-color: #007bff; /* Couleur de fond */
+    color: white;              /* Couleur du texte */
+    padding: 50px 0;           /* Espace intérieur */
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%); /* Créer la forme oblique */
+  }
+  @media screen and (max-width:500px){
+    .oblique-section {
+        background-color: #007bff; /* Couleur de fond */
+        color: white;              /* Couleur du texte */
+        padding: 50px 0;           /* Espace intérieur */
+        clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0% 100%);
+        margin-bottom:-25%;padding-bottom:5% /* Créer la forme oblique */
+      }
+      .oblique-section1 {
+        background-color: #007bff; /* Couleur de fond */
+        color: white;              /* Couleur du texte */
+        padding: 50px 0;           /* Espace intérieur */
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+        margin-bottom: -35%;
+         /* Créer la forme oblique */
+      }
+      .oblique-section2 {
+        background-color: #007bff; /* Couleur de fond */
+        color: white;              /* Couleur du texte */
+        padding: 50px 0;           /* Espace intérieur */
+        clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);
+        padding-top: 5%;
+         /* Créer la forme oblique */
+      }
+  }
+  /* Optionnel : Centrer le contenu */
+  .oblique-section .content {
+    text-align: center;
+  }
+  .bg-violet{
+    background-color:#6f42c1;
+  }
+  .bg-autre{
+    background-color: #9b07a8;
+  }
+  
