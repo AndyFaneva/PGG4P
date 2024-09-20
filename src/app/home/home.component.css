@@ -14,7 +14,9 @@ ul {
 span {
     text-decoration: underline;
 }
-
+.bg-secondaryy{
+  background-color: rgba(0, 0, 0, 0.582);
+}
 .oblique-section {
     background-color: #007bff; /* Couleur de fond */
     color: white;              /* Couleur du texte */

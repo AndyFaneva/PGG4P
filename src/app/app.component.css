@@ -2,6 +2,10 @@
     margin:0;
     padding:0;
 }
+.bgg{
+    background-color: #b15407;
+    
+}
 .logo {
     position: relative;
     font-family: "Lucida Handwriting", cursive;

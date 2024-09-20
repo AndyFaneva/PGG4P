@@ -7,7 +7,7 @@
 6 silly config load:file:C:\Users\Faneva_ANDRIANAINA\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm run start
 8 verbose argv "run" "start"
-9 verbose logfile logs-max:10 dir:C:\Users\Faneva_ANDRIANAINA\Desktop\PGG4P\mon_app\_logs\2024-09-18T14_13_11_506Z-
-10 verbose logfile C:\Users\Faneva_ANDRIANAINA\Desktop\PGG4P\mon_app\_logs\2024-09-18T14_13_11_506Z-debug-0.log
-11 silly logfile start cleaning logs, removing 2 files
+9 verbose logfile logs-max:10 dir:C:\Users\Faneva_ANDRIANAINA\Desktop\PGG4P\mon_app\_logs\2024-09-20T15_38_13_563Z-
+10 verbose logfile C:\Users\Faneva_ANDRIANAINA\Desktop\PGG4P\mon_app\_logs\2024-09-20T15_38_13_563Z-debug-0.log
+11 silly logfile start cleaning logs, removing 3 files
 12 silly logfile done cleaning log files
