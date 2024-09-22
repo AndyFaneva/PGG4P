@@ -2,6 +2,15 @@
     margin:0;
     padding:0;
 }
+.navbar-expand-lg{
+    position:fixed;
+    width: 100%;
+    backface-visibility: visible;
+    z-index: 999;
+}
+.bg-lightt{
+    background-color: rgba(255, 255, 255, 0.712);
+}
 .bgg{
     background-color: #075fb1;
     
@@ -34,9 +43,8 @@
     border-radius: 40px;
 }
 .nav-link:hover{
-    background-color: rgb(23, 1, 226);
-    border-radius: 40px;
-    color:white;
+    text-decoration: underline;
+    color:black;
     font-size: 15px;
 }
 .container {
@@ -49,4 +57,12 @@
     width: 100%;
     background-color: #f3f704;
     bottom:0;
+}
+.containt{
+padding-top: 3%;
+}
+@media screen and (max-width:750px) {
+    .containt{
+        padding-top: 10%;
+        }
 }
