@@ -17,54 +17,8 @@ span {
 .bg-secondaryy{
   background-color: rgba(0, 0, 0, 0.582);
 }
-.oblique-section {
-    background-color: #007bff; /* Couleur de fond */
-    color: white;              /* Couleur du texte */
-    padding: 50px 0;           /* Espace intérieur */
-    clip-path: polygon(0 0%, 100% 15%, 100% 80%, 0% 100%);
-    margin-bottom:-5%;padding-bottom:auto; /* Créer la forme oblique */
-  }
-  .oblique-section1 {
-    background-color: #007bff; /* Couleur de fond */
-    color: white;              /* Couleur du texte */
-    padding: 50px 0;           /* Espace intérieur */
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-    margin-bottom:-5%;padding-bottom: auto; /* Créer la forme oblique */
-  }
-  .oblique-section2 {
-    background-color: #007bff; /* Couleur de fond */
-    color: white;              /* Couleur du texte */
-    padding: 50px 0;           /* Espace intérieur */
-    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
-    margin-top: -5%;
-    padding-top: auto; /* Créer la forme oblique */
-  }
   @media screen and (max-width:500px){
-    .oblique-section {
-        background-color: #007bff; /* Couleur de fond */
-        color: white;              /* Couleur du texte */
-        padding: 50px 0;           /* Espace intérieur */
-        clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0% 100%);
-        margin-bottom:-20%;padding-bottom:5%;
-        margin-top: -20%; /* Créer la forme oblique */
-      }
-      .oblique-section1 {
-        background-color: #007bff; /* Couleur de fond */
-        color: white;              /* Couleur du texte */
-        padding: 50px 0;           /* Espace intérieur */
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-        margin-bottom: -10%;
-         /* Créer la forme oblique */
-      }
-      .oblique-section2 {
-        background-color: #007bff; /* Couleur de fond */
-        color: white;              /* Couleur du texte */
-        padding: 50px 0;           /* Espace intérieur */
-        clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);
-        padding-top: auto;
-        margin-top: -20%;
-         /* Créer la forme oblique */
-      }
+
   }
   /* Optionnel : Centrer le contenu */
   .oblique-section .content {

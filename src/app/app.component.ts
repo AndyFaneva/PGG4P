@@ -25,5 +25,5 @@ const routes: Routes = [
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'GreenGuard4Peace';
+  title = 'GG4P';
 }
