@@ -3,16 +3,20 @@
     text-decoration: none;
     text-align: right;
     border-radius: 40px;
-    background-color: rgb(255, 255, 255);
-    color:blue;
+    background-color: rgba(255, 255, 255, 0.205);
+    color:black;
+    font-family: arial black;
     padding:2px 5px;
     font-size: 15px;
 }
 .link:hover{
-    background-color: rgb(23, 1, 226);
-    color:white;
-    font-size: 18px;
+    text-decoration: underline;
+    color:black;
+    font-family: arial black;
 }
 .nav{
     position: relative;
+}
+.header-nav{
+    position:fixed;
 }

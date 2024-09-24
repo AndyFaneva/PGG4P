@@ -7,6 +7,7 @@ import { RouterLinkActive} from '@angular/router';
 import {Router, NavigationEnd} from '@angular/router';
 import { RouterModule,Routes } from '@angular/router';
 
+
 const routes: Routes = [
   // Ajoutez vos routes ici
 ];
@@ -25,5 +26,5 @@ const routes: Routes = [
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'GG4P';
+  title = '-GG4P-';
 }

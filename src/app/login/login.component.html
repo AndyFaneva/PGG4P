@@ -26,14 +26,14 @@
   <div class="body">
   <div class="login-container text-white">
     <h1>Login</h1>
-    <form>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
       <div class="mb-3">
-        <label for="email" class="form-label">Adresse e-mail</label>
-        <input type="email" class="form-control" id="email" placeholder="Votre e-mail" required>
+        <label for="email" class="form-label">Nom d'utilisateur</label>
+        <input type="email" class="form-control" id="username" placeholder="Votre e-mail" formControlName="username" required>
       </div>
       <div class="mb-3">
         <label for="password" class="form-label">Mot de passe</label>
-        <input type="password" class="form-control" id="password" placeholder="Votre mot de passe" required>
+        <input type="password" class="form-control" id="password" formControlName="password" placeholder="Votre mot de passe" required>
       </div>
       <!-- Checkbox pour afficher/masquer le mot de passe -->
       <div class="mb-3">
@@ -43,7 +43,7 @@
       <div class="d-flex justify-content-between">
         <a href="#">Mot de passe oublié ?</a>
       </div>
-      <button type="submit" class="btn btn-primary w-100 mt-3">Connexion</button>
+      <button type="submit" class="btn btn-primary w-100 mt-3" [disabled]="loginForm.invalid">Connexion</button>
     </form>
   </div>
 </div>

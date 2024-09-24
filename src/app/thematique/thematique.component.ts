@@ -1,9 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
-import { PaixComponent } from './paix/paix.component';
-import { ChangeClimateComponent } from './change-climate/change-climate.component';
-import { GestionRisqueComponent } from './gestion-risque/gestion-risque.component';
-
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-thematique',
@@ -11,9 +7,7 @@ import { GestionRisqueComponent } from './gestion-risque/gestion-risque.componen
   imports: [
     RouterLink,
     RouterOutlet,
-    PaixComponent,
-    ChangeClimateComponent,
-    GestionRisqueComponent,
+    RouterLinkActive,
     ThematiqueComponent
   ],
   templateUrl: './thematique.component.html',

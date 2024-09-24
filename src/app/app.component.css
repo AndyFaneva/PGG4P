@@ -5,20 +5,21 @@
 .navbar-expand-lg{
     position:fixed;
     width: 100%;
-    backface-visibility: visible;
     z-index: 999;
+    backdrop-filter: blur(10px);
 }
+
 .bg-lightt{
-    background-color: rgba(255, 255, 255, 0.712);
-}
-.bgg{
-    background-color: #075fb1;
-    
+    background-color: rgba(255, 255, 255, 0.479);
 }
 .logo {
     position: relative;
     font-family: "Lucida Handwriting", cursive;
-    color:rgb(5, 26, 146);
+    color:rgb(249, 250, 253);
+    background-color: #043df7;
+    padding:0 5%;
+    margin:1% 2%;
+    border-radius: 50%;
 }
 .active{
     text-decoration: underline;
