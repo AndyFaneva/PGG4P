@@ -6,6 +6,7 @@ import { ThematiqueComponent } from './auth/thematique/thematique.component';
 import { RouterLinkActive} from '@angular/router';
 import {Router, NavigationEnd} from '@angular/router';
 import { RouterModule,Routes } from '@angular/router';
+import { LoginComponent } from './auth/login/login.component';
 
 
 const routes: Routes = [

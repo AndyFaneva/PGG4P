@@ -5,6 +5,7 @@ import { HomeComponent } from './auth/home/home.component';
 import { RessourceComponent } from './auth/ressource/ressource.component';
 import { SingingComponent } from './auth/singing/singing.component';
 import { LoginComponent } from './auth/login/login.component';
+import { AdminhomeComponent } from './admin/adminhome/adminhome.component';
 export const routes: Routes = [
     {path :'thematique', component:ThematiqueComponent},
     {path :'home', component:HomeComponent},
@@ -12,5 +13,6 @@ export const routes: Routes = [
     {path :'actualite', component:ActualiteComponent},
     {path :'ressource', component:RessourceComponent},
     {path:'login',component:LoginComponent},
-    {path:'singing',component:SingingComponent}
+    {path:'singing',component:SingingComponent},
+    {path:'admin/adminhome',component:AdminhomeComponent}
 ];
