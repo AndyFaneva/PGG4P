@@ -24,7 +24,7 @@ onSubmit(){
   if(this.loginForm.valid){
     const{username, password}=this.loginForm.value;
 
-    if(username === 'admin@gmail.com' && password === 'admin'){
+    if(username === 'admin' && password === 'admin'){
       alert('Connexion réussie');
     }else{
       alert('Identifiant ou mot de passe incorrect');
