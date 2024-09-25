@@ -7,5 +7,13 @@
 6 silly config load:file:C:\Users\Faneva_ANDRIANAINA\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm run start
 8 verbose argv "run" "start"
-9 verbose logfile logs-max:10 dir:C:\Users\Faneva_ANDRIANAINA\Desktop\PGG4P\mon_app\_logs\2024-09-25T04_57_58_840Z-
-10 verbose logfile C:\Users\Faneva_ANDRIANAINA\Desktop\PGG4P\mon_app\_logs\2024-09-25T04_57_58_840Z-debug-0.log
+9 verbose logfile logs-max:10 dir:C:\Users\Faneva_ANDRIANAINA\Desktop\PGG4P\mon_app\_logs\2024-09-25T17_33_03_645Z-
+10 verbose logfile C:\Users\Faneva_ANDRIANAINA\Desktop\PGG4P\mon_app\_logs\2024-09-25T17_33_03_645Z-debug-0.log
+11 silly logfile start cleaning logs, removing 6 files
+12 silly logfile done cleaning log files
+13 verbose cwd C:\Users\Faneva_ANDRIANAINA\Desktop\PGG4P
+14 verbose os Windows_NT 10.0.18363
+15 verbose node v20.11.1
+16 verbose npm  v10.8.3
+17 verbose exit 0
+18 info ok
