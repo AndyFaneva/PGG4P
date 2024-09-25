@@ -1,20 +1,18 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { HeaderComponent } from '../../header/header.component';
 
 @Component({
-  selector: 'app-ressource',
+  selector: 'app-header1',
   standalone: true,
   imports: [
-    HeaderComponent,
     RouterLink,
     RouterLinkActive,
     CommonModule
   ],
-  templateUrl: './ressource.component.html',
-  styleUrl: './ressource.component.css'
+  templateUrl: './header1.component.html',
+  styleUrl: './header1.component.css'
 })
-export class RessourceComponent {
-
+export class Header1Component {
+ title="-GG4P-";
 }

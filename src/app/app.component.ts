@@ -27,5 +27,4 @@ const routes: Routes = [
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = '-GG4P-';
 }

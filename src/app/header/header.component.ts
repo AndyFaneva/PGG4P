@@ -1,20 +1,18 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { HeaderComponent } from '../../header/header.component';
 
 @Component({
-  selector: 'app-singing',
+  selector: 'app-header',
   standalone: true,
   imports: [
-    HeaderComponent,
     CommonModule,
     RouterLink,
     RouterLinkActive
   ],
-  templateUrl: './singing.component.html',
-  styleUrl: './singing.component.css'
+  templateUrl: './header.component.html',
+  styleUrl: './header.component.css'
 })
-export class SingingComponent {
-
+export class HeaderComponent {
+  title="-GG4P-";
 }
