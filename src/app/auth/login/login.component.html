@@ -1,5 +1,9 @@
 
 <style>
+
+
+
+
   .body {
     background-color: rgb(3, 67, 187);
     height: 115vh;
@@ -20,15 +24,14 @@
   .login-container h1 {
     text-align: center;
   }
-
   .login-container  {
-    margin-bottom: 50%;
-  }
+      margin-bottom: 5%;
+    }
 </style>
 <app-header></app-header>
-<div class="body" style="padding-top: 5%;">
-<div class="login-container text-white">
-  <h2>Connexion</h2>
+<div class="body" style="padding-top: 5%;height: 100%;">
+<div class="login-container text-white" style="height: auto;text-align: justify;">
+  <h2 style="text-align: center;">Connexion</h2>
   <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
     <div class="form-group mb-3">
       <label for="username">Nom d'utilisateur</label>
@@ -61,6 +64,6 @@
 
     <button type="submit" [disabled]="!loginForm.valid" class="btn btn-primaryy w-100 mt-3">Connecter</button>
   </form>
-  <p class="register-link">Pas encore de compte? <a [routerLink]="['/singing']">S'inscrire</a></p>
+  <p class="register-link">Pas encore de compte? <br><a [routerLink]="['/singing']" style="color:red;font-weight: bold;">S'inscrire</a></p>
 </div>
 </div>

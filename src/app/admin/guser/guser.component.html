@@ -1,0 +1,152 @@
+<style>
+    .cont{
+        margin:0 3%;
+        background-color: white;
+    }
+    .btn{
+        font-weight: bold;
+        color:black;
+    }
+    .nom{
+        font-weight: bold;
+        color:rgb(0, 204, 255);
+    }
+    .contenu{
+        background-color: grey;
+    }
+</style>
+<script>
+   document.getElementById('checkbox1').addEventListener('change',function(){
+        const v = document.getElementById('voir');
+        if(this.checkVisibility){
+            v.textContent="ee"
+        }
+   });
+</script>
+<app-header1></app-header1>
+<div class="container">
+    <div class="col">
+        <div style="background-color: grey;width: 100%;">
+            Utilisateur
+        </div>
+    </div>
+    <div class="col" style="display: flex;">
+        <div style="border: 1px black solid;text-align: center;padding:0 2%;font-weight: bold;">
+            Tous
+        </div>
+        <div style="border: 1px black solid;text-align: center;padding:0 2%">
+            Administrateur
+        </div>
+        <div style="border: 1px black solid;text-align: center;padding:0 2%">
+            Membres
+        </div>
+    </div>
+    <div class="table">
+        <table>
+            <tr>
+                <th class="cont">
+                Nom
+                </th>
+                <th class="cont">
+                Rôles
+                </th>
+                <th class="cont">
+                Action
+                </th>
+            </tr>
+            <tr class="contenu">
+                <td class="cont nom">
+                Rakoto
+                </td>
+                <td class="cont role">
+                Membres
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: green;" type="button">Voir</button>
+                      </div> 
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: yellow;" type="button">Modifier</button>
+                      </div>
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: red;" type="button">Supprimer</button>
+                      </div>
+                </td>
+            </tr>
+            <tr class="contenu">
+                <td class="cont nom">
+                Kiala
+                </td>
+                <td class="cont role">
+                Membres
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: green;" type="button">Voir</button>
+                      </div> 
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: yellow;" type="button">Modifier</button>
+                      </div>
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: red;" type="button">Supprimer</button>
+                      </div>
+                </td>
+            </tr>
+            <tr class="contenu">
+                <td class="cont nom">
+                Rindra
+                </td>
+                <td class="cont role">
+                Membres
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: green;" type="button">Voir</button>
+                      </div> 
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: yellow;" type="button">Modifier</button>
+                      </div>
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: red;" type="button">Supprimer</button>
+                      </div>
+                </td>
+            </tr>
+            <tr class="contenu">
+                <td class="cont nom">
+                Finaritra
+                </td>
+                <td class="cont role">
+                Administrateur
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: green;" type="button">Voir</button>
+                      </div> 
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: yellow;" type="button">Modifier</button>
+                      </div>
+                </td>
+                <td class="cont">
+                    <div class="d-flex">
+                        <button class="btn " style="background-color: red;" type="button">Supprimer</button>
+                      </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+

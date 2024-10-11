@@ -6,6 +6,9 @@ import { RessourceComponent } from './auth/ressource/ressource.component';
 import { SingingComponent } from './auth/singing/singing.component';
 import { LoginComponent } from './auth/login/login.component';
 import { AdminhomeComponent } from './admin/adminhome/adminhome.component';
+import { GuserComponent } from './admin/guser/guser.component';
+import { GprojetComponent } from './admin/gprojet/gprojet.component';
+import { GactComponent } from './admin/gact/gact.component';
 export const routes: Routes = [
     {path :'thematique', component:ThematiqueComponent},
     {path :'home', component:HomeComponent},
@@ -14,5 +17,9 @@ export const routes: Routes = [
     {path :'ressource', component:RessourceComponent},
     {path:'login',component:LoginComponent},
     {path:'singing',component:SingingComponent},
+    {path:'admin/adminhome',component:AdminhomeComponent},
+    {path:'admin/guser',component:GuserComponent},
+    {path:'admin/gprojet',component:GprojetComponent},
+    {path:'admin/gact',component:GactComponent},
     {path:'admin/adminhome',component:AdminhomeComponent}
 ];

@@ -1,17 +1,34 @@
 
-<nav class="navbar navbar-expand-lg navbar-light bg-lightt" >
+<style>
+  .nav-link{
+    margin-left: 2%;
+    font-size: 12px;
+  }
+  .nav-link:hover{
+    cursor: pointer;
+  }
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-lightt" style="background-color: rgba(159, 174, 243, 0.589);">
     <div class="container-fluid"  >
       <a class="navbar-brand logo">
       {{title}}  
-      Bonjour Admin
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
-         <li class="nav-link">
-
+         <li class="nav-link" routerLinkActive="active" routerLink="/admin/adminhome">
+          <a>Tableau de bord</a>
+         </li>
+         <li class="nav-link" routerLinkActive="active" routerLink="/admin/guser">
+          <a>Gestion des utilisateurs</a>
+         </li>
+         <li class="nav-link" routerLinkActive="active" routerLink="/admin/gprojet">
+          <a>Gestion des projets</a>
+         </li>
+         <li class="nav-link" routerLinkActive="active" routerLink="/admin/gact">
+          <a>Actualités et mises à jour</a>
          </li>
         </ul>
       </div>

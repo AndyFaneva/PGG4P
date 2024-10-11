@@ -10,6 +10,7 @@
     width: 100%;
     z-index: 999;
     backdrop-filter: blur(10px);
+    font-size: 10;
 }
 .container {
     justify-content:space-between;
@@ -33,6 +34,7 @@
     border-radius: 40px;
     color:rgb(4, 43, 172);
     font-size: 15px;
+    font-weight: bold;
 }
 .nav-item{
     display: inline-block;    
@@ -53,5 +55,6 @@
 .nav-link:hover{
     text-decoration: underline;
     color:black;
+    font-weight: bold;
     font-size: 15px;
 }
